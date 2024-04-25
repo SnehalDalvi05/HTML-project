@@ -1,0 +1,140 @@
+<html>
+<head>
+<style>
+body{background-color:lightblue;}
+h1{font-size:Comic Sans MS;color:purple;}
+p{font-size:26px;}
+p::first-letter{color:red;font-size:60px;}
+table{background-color:white;}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.location {
+    background-color: #f4f4f4;
+}
+
+.gallery-container img {
+    width: 23%;
+    height: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+            overflow: hidden; /* Clear floats */
+        }
+        .navbar a {
+            float: right; /* Float the links to the left */
+            display: block; /* Make the links block-level elements */
+            color: white; /* Text color */
+            text-align: center; /* Center the text within the links */
+            padding: 14px 36px; /* Padding around the links */
+            text-decoration: none; /* Remove underline from links */
+        }
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+
+        /* Change the link color on hover */
+        .navbar a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black; /* Text color on hover */
+        }
+</style>
+</head>
+<body>
+<div class="navbar">
+    <a href="wonders.html">Home</a>
+    <a href="colo.html">Colloseum</a>
+    <a href="christ.html">Christ</a>
+    <a href="pichu.html">Picchu</a>
+    <a href="petra.html">Petra</a>
+    <a class="active">Itza</a>
+    <a href="wall.html">Great wall</a>
+    <a href="tajmahal.html">Taj Mahal</a>
+</div>
+<header>
+    <h1>Chichen Itza</h1>
+</header>
+
+<section class="chichen-info">
+    <p class="location">
+        Chichen Itza, located on the Yucatan Peninsula in Mexico, stands as a testament to the advanced architectural and cultural achievements of the ancient Maya civilization.
+        This UNESCO World Heritage Site showcases a blend of Mayan and Toltec influences, offering a glimpse into the rich history and beliefs of its creators.
+        The focal point of Chichen Itza is the iconic pyramid known as El Castillo (the Temple of Kukulcán). This majestic structure reflects the Mayan calendar through its architectural design,
+        with 365 steps symbolizing the days of the solar year. During the equinoxes, a fascinating shadow play occurs on the pyramid, resembling a serpent descending the steps.<br><br>
+ 
+        Other significant structures include the Great Ball Court, one of the largest in Mesoamerica, and the Temple of the Warriors adorned with intricate carvings and columns.
+        The Sacred Cenote, a natural sinkhole used for rituals, remains a poignant reminder of the civilization's religious practices.<br><br>
+
+        The Yucatan region, home to Chichen Itza, not only offers historical marvels but also embraces modern Mexican culture. Accessible from cities like Merida and Cancun,
+        Chichen Itza welcomes visitors to explore its archaeological wonders and delve into the enigmatic history of the Maya.
+    </p>
+</section>
+
+<section class="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-container">
+        <img src="itza1.jpg" alt="Chichen Itza">
+        <img src="itza2.jpg" alt="Chichen Itza">
+        <img src="itza3.jpg" alt="Chichen Itza">
+        <img src="itza4.jpg" alt="Chichen Itza">
+    </div>
+</section><br><br>
+
+<center>
+    <table border height="80%" width="80%">
+        <tr>
+            <td colspan="5"><b>Location</b></td>
+            <td colspan="7">Yucatan Peninsula, Mexico</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Timings</b></td>
+            <td colspan="7">8:00 AM to 5:00 PM daily</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Entry Fee</b></td>
+            <td colspan="7">MXN 481 (as of 2023)</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Night Entry</b></td>
+            <td colspan="7">Limited special events or private tours only</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Camera</b></td>
+            <td colspan="7">Photography allowed for personal use</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Status</b></td>
+            <td colspan="7">UNESCO World Heritage site</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Architect</b></td>
+            <td colspan="7">Mayan and Toltec influences</td>
+        </tr>
+        <tr>
+            <td colspan="5"><b>Area</b></td>
+            <td colspan="7">Approximately 6.5 square kilometers</td>
+        </tr>
+    </table>
+</center>
+
+<footer>
+    <p>&copy; 2023 Chichen Itza</p>
+</footer>
+</body>
+</html>

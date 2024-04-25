@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            background: url('pichu1.jpg') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: #333; 
+            overflow: hidden; 
+        }
+
+        .navbar a {
+            float: right; 
+            display: block;
+            color: white; 
+            text-align: center; 
+            padding: 14px 36px; 
+            text-decoration: none; 
+        }
+
+        .navbar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd; 
+            color: black; 
+        }
+
+        .glass-container {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(20px);
+            padding: 10px;
+            max-width: 60%;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+        }
+
+        h1,
+        h2,
+        p,
+        ol,
+        ul {
+            color: #fff;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .glass-container {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="wonders.html">Home</a>
+        <a href="tourcolo.html">Colosseum</a>
+        <a href="tourchrist.html">Christ</a>
+        <a class="active">Picchu</a>
+        <a href="tourpetra.html">Petra</a>
+        <a href="touritza.html">Itza</a>
+        <a href="tourwall.html">Wall</a>
+        <a href="tourtaj.html">Taj mahal</a>
+    </div>
+
+    <div class="glass-container">
+        <h1>How To Reach</h1>
+        <ul type="disc">
+            <li><b> By air:</b><br>The nearest airport to Machu Picchu is:</li><br>
+            <ol type="i">
+                <li>Alejandro Velasco Astete International Airport (Cusco)</li>
+            </ol><br><br>
+            <li><b> By Rail:</b><br>Take a train to Aguas Calientes (the town near Machu Picchu) from Cusco. From Aguas Calientes, a bus or a hike takes you to Machu Picchu.</li><br>
+            <ol type="i">
+                <li>From Cusco to Aguas Calientes by train</li>
+            </ol><br><br>
+            <li><b> By Hiking:</b><br>You can also reach Machu Picchu by hiking the famous Inca Trail, which offers a breathtaking journey through the Andes.</li>
+        </ul>
+    </div>
+</body>
+
+</html>

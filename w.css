@@ -1,0 +1,19 @@
+*{margin:0;padding:0; box-sizing:border-box;}
+
+header{width:100vw;height:100vh; background-image:url("7wonn.jpg"); background-position:bottom;background-size:cover;display:flex;align-items:center;justify-content:center;}
+
+a{text-decoration:none;}
+
+.header-content{margin-bottom:150px; color:whitesmoke;text_align:center;}
+
+.header-content h2{font-size:4vmin;}
+
+.line{width:150px;height:4px;margin:10px auto;border_radius:5px;}
+
+.ctn{padding:8px 15px;background:red;border-radius:30px;color:whitesmoke;}
+
+.navbar {position:absolute;top:0;left:0;display:flex;width:100%;justify-content:space-between;padding:20px;color:whitesmoke;}
+
+.nav-links{display:flex;align-items:center;}
+
+.nav-links li{margin:0;}

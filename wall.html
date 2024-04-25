@@ -1,0 +1,153 @@
+<html>
+<head>
+<style>
+body{background-color:lightblue;}
+h1{font-size:Comic Sans MS;color:purple;}
+p{font-size:26px;}
+p::first-letter{color:red;font-size:60px;}
+table{background-color:white;}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+}
+.location {
+    background-color: #f4f4f4;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery-container img {
+    width: 23%;
+    height: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+            overflow: hidden; /* Clear floats */
+        }
+        .navbar a {
+            float: right; /* Float the links to the left */
+            display: block; /* Make the links block-level elements */
+            color: white; /* Text color */
+            text-align: center; /* Center the text within the links */
+            padding: 14px 36px; /* Padding around the links */
+            text-decoration: none; /* Remove underline from links */
+        }
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+        /* Change the link color on hover */
+        .navbar a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black; /* Text color on hover */
+        }
+</style>
+</head>
+<body>
+<div class="navbar">
+    <a href="wonders.html">Home</a>
+    <a href="colo.html">Colloseum</a>
+    <a href="christ.html">Christ</a>
+    <a href="pichu.html">Picchu</a>
+    <a href="petra.html">Petra</a>
+    <a href="itza.html">Itza</a>
+    <a class="active">Great wall</a>
+    <a href="tajmahal.html">Taj Mahal</a>
+</div>
+<header>
+        <h1>Great Wall of China</h1>
+    </header>
+
+    <section class="taj-info">
+        
+        <p class="location">The one thing most people “know” about the Great Wall of China—that it is one of the only man-made structures visible from space—is not actually true. Since the wall looks a lot like the stone and soil that surround it, it is difficult to discern with the human eye even from low Earth orbit, and is difficult to make out in most orbital photos. However, this does not detract from the wonder of this astounding ancient structure.<br><br>
+
+For millennia, Chinese leaders instituted wall-building projects to protect the land from northern, nomadic invaders. One surviving section of such an ancient wall, in the Shandong province, is made of hard-packed soil called “rammed earth” and is estimated to be 2,500 years old.<br><br>
+
+Countless visitors view the wall every year. It may not be clearly visible from space, but it is considered “an absolute masterpiece” here on Earth.</p>
+</section>
+
+
+<section class="gallery">
+  <h2>Photo Gallery</h2>
+  <div class="gallery-container">
+      <img src="wall3.jpg" alt="Taj Mahal">
+      <img src="wall1.jpg" alt="Taj Mahal">
+      <img src="wall2.jpg" alt="Taj Mahal">
+      <img src="wall4.jpg" alt="Taj Mahal">
+  </div>
+</section><br><br>
+<center>
+<table border  height=80% width=80% float="center">
+    <p>Here's some insight</p>
+<tr>
+<td colspan="5"><b>Location</b></td>
+<td colspan="7">Northern China</td>
+</tr>
+<tr>
+<td colspan="5"><b>Timings</b></td>
+<td colspan="7"><ul><li>Winter: from 7 am to 6 pm</li>
+                    <li>Summer: from 6:30 am to 7 pm</li></ul>
+</td>
+</tr>
+<tr>
+<td colspan="5"><b >Entry Fee</b></td>
+<td colspan="7">Private Day Trip US$ 233</td>
+</tr>
+<tr>
+<td colspan="5"><b>Night stay</b></td>
+<td colspan="7"> an overnight stay near the Great Wall is highly recommended<br>
+<ol><li> Appreciate the Great Wall in the early morning when there are no crowds.</li>
+                    <li> Enjoy sunset and night views of the Great Wall.</li></ol>
+</td>
+</tr>
+<tr>
+<td colspan="5"><b>Still Camera</b></td>
+<td colspan="7">Tourists who wish to take aerial photos and videos of the Great Wall are now required to obtain permission from the CAAC.</td>
+</tr>
+<tr>
+<td colspan="5"><b>Founder</b></td>
+<td colspan="7"> Emperor Qin Shi Huang</td>
+</tr>
+<tr>
+<td colspan="5"><b>Architect</b></td>
+<td colspan="7">300,000 soldiers and 500,000 common people</td>
+</tr>
+<tr>
+<td colspan="5"><b>Material used</b></td>
+<td colspan="7"><ul><li>Earth, stone, brick, lime, and wood</li>
+                    <li>Lime mortar</li>
+                    <li>Tamped earth, uncut stones, and wood</li>
+                    <li>Dusty loess soil</li></ol>
+</td>
+</tr>
+<tr>
+<td colspan="5"><b>Cost of Construction</b></td>
+<td colspan="7">CNY635 billion</td>
+</tr>
+<tr>
+<td colspan="5"><b>Area</b></td>
+<td colspan="7">8,851.8 kilometres</td>
+</tr>
+</table>
+</center>
+
+    <footer>
+        <p>&copy; 2022 Great wall of China</p>
+    </footer>
+</body>
+</html>

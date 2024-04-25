@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            font-size: Comic Sans MS;
+            color: purple;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+        p::first-letter {
+            color: red;
+            font-size: 60px;
+        }
+
+        table {
+            background-color: white;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .location {
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .gallery-container img {
+            width: 23%;
+            height: auto;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 36px;
+            text-decoration: none;
+        }
+
+        .navbar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="wonders.html">Home</a>
+        <a href="colo.html">Colosseum</a>
+        <a class="active" href="b.html">Christ</a>
+        <a href="pichu.html"> Picchu</a>
+        <a href="petra.html">Petra</a>
+        <a href="itza.html">Itza</a>
+        <a href="wall.html">Great Wall</a>
+        <a href="tajmahal.html">Taj Mahal</a>
+    </div>
+    <header>
+        <h1>Christ the Redeemer</h1>
+    </header>
+
+    <section class="christ-info">
+
+        <p class="location">Christ the Redeemer is an iconic statue of Jesus Christ located in Rio de Janeiro, Brazil. This colossal monument stands atop the Corcovado mountain and overlooks the city with open arms, symbolizing peace and welcoming visitors from around the world.<br><br>
+
+            The statue, standing at a height of 30 meters (98 feet), was completed in 1931 and is considered one of the New Seven Wonders of the World. It is made of reinforced concrete and soapstone, showcasing the artistry of Brazilian sculptor Paul Landowski and Brazilian engineer Heitor da Silva Costa.<br><br>
+
+            Christ the Redeemer is not only a religious symbol but also a cultural and architectural marvel. Visitors can reach the summit by train or hike, enjoying panoramic views of Rio de Janeiro and the surrounding landscape.<br><br>
+
+            The monument is often illuminated at night, creating a stunning spectacle visible from various parts of the city. It attracts millions of tourists annually, making it a must-visit landmark in Brazil.<br><br>
+
+            Christ the Redeemer stands as a testament to the rich cultural heritage and spiritual significance of Brazil.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <img src="christ1.jpg" alt="Christ the Redeemer">
+            <img src="christ2.jpg" alt="Christ the Redeemer">
+            <img src="christ3.jpg" alt="Christ the Redeemer">
+            <img src="christ4.jpg" alt="Christ the Redeemer">
+        </div>
+    </section><br><br>
+    <center>
+        <table border height="80%" width="80%" align="center">
+            <p>Here's some insight</p>
+            <tr>
+                <td colspan="5"><b>Location</b></td>
+                <td colspan="7">Rio de Janeiro, Brazil</td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Height</b></td>
+                <td colspan="7">30 meters (98 feet)</td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Construction Completed</b></td>
+                <td colspan="7">1931</td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Materials</b></td>
+                <td colspan="7">Reinforced concrete and soapstone</td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Architect</b></td>
+                <td colspan="7">Paul Landowski</td>
+            </tr>
+            <tr>
+                <td colspan="5"><b>Engineer</b></td>
+                <td colspan="7">Heitor da Silva Costa</td>
+            </tr>
+        </table>
+    </center>
+
+    <footer>
+        <p>&copy; 2022 Christ the Redeemer</p>
+    </footer>
+</body>
+
+</html>
